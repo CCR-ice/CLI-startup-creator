@@ -2,4 +2,5 @@
 A one-command service creator for the Linux CLI, fast and simple!
 
 
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/CCR-ice/pwnkit/main/setup.sh)"```
+For *.sh files: ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/CCR-ice/CLI-service-creator/main/setup_SH.sh)"```
+For *.c files: ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/CCR-ice/CLI-service-creator/main/setup_C.sh)"```
