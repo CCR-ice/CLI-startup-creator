@@ -4,11 +4,15 @@ if [ -d "/etc/start" ]
 then
 	sh -c "chmod +x \"$file\""
 	sh -c "mv \"$file\" \"/etc/start/\""
-	sh -c "echo \"../etc/start/$file\" >> /etc/bash.bashrc"
+	sleep 5
+	sh -c "echo \"/etc/start/$file\" >> /etc/bash.bashrc"
+	echo "Done."
 else
 	sh -c "chmod +x \"$file\""
 	sh -c "mkdir \"/etc/start/\""
 	sh -c "mv \"$file\" \"/etc/start/\""
-	sh -c "echo \"../etc/start/$file\" >> /etc/bash.bashrc"
+	sleep 5
+	sh -c "echo \"/etc/start/$file\" >> /etc/bash.bashrc"
+	echo "Done."
 fi
 #finish
