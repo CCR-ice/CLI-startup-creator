@@ -3,7 +3,7 @@ read file
 if [ -d "/etc/start" ]
 then
 	sh -c "chmod +x \"$file\""
-	sh -c "mv \"$file\" \"/etc/start/\""
+	sh -c "cp \"$file\" \"/etc/start/\""
 	sleep 5
 	sh -c "echo \"/etc/start/$file\" >> /etc/bash.bashrc"
 	echo "Done."
