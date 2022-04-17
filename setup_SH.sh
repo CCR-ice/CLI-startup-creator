@@ -11,3 +11,4 @@ else
 	sh -c "mv \"$file\" \"/etc/start/\""
 	sh -c "echo \"./start/$file\" >> /etc/bash.bashrc"
 fi
+#finish
